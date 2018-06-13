@@ -1,5 +1,5 @@
 # Article Analysis Tool
-## By Marc Schmitt
+#### By Marc Schmitt
 
 ## Usage Requirements
 * Python 3.6
