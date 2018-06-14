@@ -23,4 +23,4 @@
 * Run the following commands:
 * `python query_script.py`
 * Enter your keyword to search for
-* The result of the search will be in the file "<YOUR KEYWORD>.csv"
+* The result of the search will be in the file "<<YOUR KEYWORD>>.csv"
