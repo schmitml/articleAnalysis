@@ -25,10 +25,11 @@ class LinkSpider(CrawlSpider):
     name = "LinkSpider"
 
     # The domains that are allowed (links to other domains are skipped)
-    allowed_domains = ["www.state.gov"]
+    allowed_domains = [".gov"]
 
     # The URLs to start with
-    start_urls = ["https://www.state.gov/r/pa/prs/ps/2018/index.htm"]
+    start_urls = input("Please enter a URL index page(the one with all the links on it)")
+    # start_urls = ["https://www.state.gov/r/pa/prs/ps/2018/index.htm"]
 
     # This spider has one rule: extract all (unique and canonicalized) links, follow them and parse them using the parse_items method
     rules = [

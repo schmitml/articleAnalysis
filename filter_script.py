@@ -1,10 +1,10 @@
 import json
 import csv
 
-with open('./lexProject/all_links.json') as f:
+with open('./lexProject/all_articles.json') as f:
     data = json.load(f)
 
-with open('filtered_links.json', 'w') as outfile:    
+with open('filtered_articles.json', 'w') as outfile:    
     count = 0
     forCsv = []
     for dat in data:
